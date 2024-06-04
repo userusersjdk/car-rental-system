@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <!-- You can link your CSS file here for styling -->
+</head>
+<body>
+
+<header>
+    <h1>Car Rental Service</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#fleet">Fleet</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to our Car Rental Service</h2>
+    <p>Find the perfect car for your needs and budget.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit elit nec metus rhoncus, in hendrerit ligula blandit. Donec vel elit vel arcu lobortis molestie. Duis tincidunt, arcu sit amet vestibulum sollicitudin, enim sapien lacinia justo, non consequat nisl ipsum nec mauris.</p>
+</section>
+
+<section id="fleet">
+    <h2>Our Fleet</h2>
+    <div class="car">
+        <img src="car1.jpg" alt="Car 1">
+        <h3>Car Model 1</h3>
+        <p>Description of the car.</p>
+        <button>Rent Now</button>
+    </div>
+    <div class="car">
+        <img src="car2.jpg" alt="Car 2">
+        <h3>Car Model 2</h3>
+        <p>Description of the car.</p>
+        <button>Rent Now</button>
+    </div>
+    <!-- Add more cars as needed -->
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Car Rental Service. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
